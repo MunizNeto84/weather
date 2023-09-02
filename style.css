@@ -17,7 +17,7 @@ body {
 .container {
   position: relative;
   width: 25rem;
-  height: 37.8rem;
+  height: 6.5rem;
   background: #e1fceb;
   padding: 1.7rem 2rem;
   overflow: hidden;
@@ -171,4 +171,16 @@ body {
 .weather-details {
   scale: 0;
   opacity: 0;
+}
+
+.fade-in {
+  animation: 0.5s fadeIn forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fade-in {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
 }
